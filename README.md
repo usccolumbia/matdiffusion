@@ -50,7 +50,7 @@ mkdir generation_outputs
 Run 'decode.sh', the generation is saved in ./generation_outputs
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
-4) Install Diffusion- BERT
+4) Install Diffusion-BERT
 
 ```Conda Setup:
 conda create --name DB python=3.8
@@ -68,8 +68,11 @@ run run.sh
 for unconditional generation
 
 6) Sampling from Diffusion-BERT:
+
 Pass the path to the checkpoint obtained during training to predict.py to unconditionally sample from DiffusionBERT.
+
 The generated sequences are saved to temp.txt
+
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
 ## Acknowledgement 
