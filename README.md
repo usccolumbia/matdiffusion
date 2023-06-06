@@ -34,7 +34,7 @@ pip install wandb
 2) Train Diffusion-LM:
 
 
-```cd improved-diffusion 
+```cd Diffusion-LM/improved-diffusion 
 mkdir diffusion_models
 sh run.sh
 ```
@@ -68,6 +68,7 @@ pip install -r requirements.txt
 2) Train Diffusion-BERT:
 
 ```
+cd Diffusion-BERT
 python word_freq.py 
 ```
 
