@@ -52,22 +52,25 @@ Run sq2formula.py to get the formula based on the sequences, the formula results
 
 4) Install Diffusion- BERT
 
-DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models
-https://arxiv.org/pdf/2211.15029.pdf 
-
 ```Conda Setup:
 conda create --name DB python=3.8
 conda activate DB
 pip install -r requirements.txt
 ```
 
-Train Diffusion-BERT:
+5) Train Diffusion-BERT:
 python word_freq.py to get the frequency in the text corpus
 'run.sh' for unconditional generation
 
-Sampling from Diffusion-BERT:
+6) Sampling from Diffusion-BERT:
 Pass the path to the checkpoint obtained during training to predict.py to unconditionally sample from DiffusionBERT.
 The generated sequences are saved to temp.txt
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
+
+7) Cite Diffusion-LM & Diffusion-BERT
+Diffusion-LM Improves Controllable Text Generation
+https://arxiv.org/pdf/2205.14217.pdf 
+DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models
+https://arxiv.org/pdf/2211.15029.pdf 
 
 
