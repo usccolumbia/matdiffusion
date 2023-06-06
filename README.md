@@ -67,11 +67,9 @@ Pass the path to the checkpoint obtained during training to predict.py to uncond
 The generated sequences are saved to temp.txt
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
-7) Cite Diffusion-LM & Diffusion-BERT
-Diffusion-LM Improves Controllable Text Generation
-https://arxiv.org/pdf/2205.14217.pdf 
-DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models
-https://arxiv.org/pdf/2211.15029.pdf 
+## Acknowledgement 
+Our work is based on two text-generation diffusion models including 
+[Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/pdf/2205.14217.pdf) and [DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/pdf/2211.15029.pdf) 
 
 
 
