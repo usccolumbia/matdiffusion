@@ -41,10 +41,12 @@ Run run.sh
 
 the trained model is saved in ./diffusion_models
 
-3)Sample from Diffusion-LM:
+3) Sample from Diffusion-LM:
 
-```mkdir generation_outputs
-``` 
+```
+mkdir generation_outputs
+```
+
 Run 'decode.sh', the generation is saved in ./generation_outputs
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
