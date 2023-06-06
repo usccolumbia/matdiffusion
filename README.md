@@ -45,10 +45,16 @@ the trained model is saved in ./diffusion_models
 
 ```
 mkdir generation_outputs
+decode.sh
 ```
 
-Run 'decode.sh', the generation is saved in ./generation_outputs
-Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
+The generation is saved in ./generation_outputs.
+
+```
+sq2formula.py
+```
+
+The sequences are then conver to formulas and the formula results are saved to formulas.csv
 
 ### Installation and use Diffusion-BERT
 1) Install Diffusion-BERT
@@ -61,11 +67,15 @@ pip install -r requirements.txt
 
 2) Train Diffusion-BERT:
 
-run python word_freq.py 
+```
+python word_freq.py 
+```
 
 to get the frequency in the text corpus
 
-run run.sh
+```
+run.sh
+```
 for unconditional generation
 
 3) Sampling from Diffusion-BERT:
@@ -74,7 +84,10 @@ Pass the path to the checkpoint obtained during training to predict.py to uncond
 
 The generated sequences are saved to temp.txt
 
-Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
+```
+sq2formula.py
+```
+The sequences are then conver to formulas and the formula results are saved to formulas.csv
 
 ## Acknowledgement 
 Our work is based on two text-generation diffusion models including 
