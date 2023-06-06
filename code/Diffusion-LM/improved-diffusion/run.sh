@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES="1" python scripts/run_train.py --diff_steps 2000 --model_arch transformer --lr 0.0001 --lr_anneal_steps 200000  --seed 102 --noise_schedule sqrt --in_channel 16 --modality seq2seq --submit no --padding_mode block --app "--predict_xstart True --training_mode mp --vocab_size 69  --seq_train ../datasets/mp_data " --notes xstart_e2e --bsz 64 --num_res_blocks 6
