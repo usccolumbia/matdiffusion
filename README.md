@@ -16,7 +16,7 @@ University of South Carolina
 ```
 
 
-### Installation
+### Installation and use Diffusion-LM
 
 1) Install Diffusion-LM
 
@@ -50,7 +50,8 @@ mkdir generation_outputs
 Run 'decode.sh', the generation is saved in ./generation_outputs
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
-4) Install Diffusion-BERT
+### Installation and use Diffusion-BERT
+1) Install Diffusion-BERT
 
 ```Conda Setup:
 conda create --name DB python=3.8
@@ -58,7 +59,7 @@ conda activate DB
 pip install -r requirements.txt
 ```
 
-5) Train Diffusion-BERT:
+2) Train Diffusion-BERT:
 
 run python word_freq.py 
 
@@ -67,7 +68,7 @@ to get the frequency in the text corpus
 run run.sh
 for unconditional generation
 
-6) Sampling from Diffusion-BERT:
+3) Sampling from Diffusion-BERT:
 
 Pass the path to the checkpoint obtained during training to predict.py to unconditionally sample from DiffusionBERT.
 
