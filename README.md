@@ -59,8 +59,13 @@ pip install -r requirements.txt
 ```
 
 5) Train Diffusion-BERT:
-python word_freq.py to get the frequency in the text corpus
-'run.sh' for unconditional generation
+
+run python word_freq.py 
+
+to get the frequency in the text corpus
+
+run run.sh
+for unconditional generation
 
 6) Sampling from Diffusion-BERT:
 Pass the path to the checkpoint obtained during training to predict.py to unconditionally sample from DiffusionBERT.
