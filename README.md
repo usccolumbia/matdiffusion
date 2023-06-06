@@ -82,8 +82,10 @@ for unconditional generation
 
 3) Sampling from Diffusion-BERT:
 
-Pass the path to the checkpoint obtained during training to predict.py to unconditionally sample from DiffusionBERT.
-
+Pass the path to the checkpoint obtained during training to predict.py.
+```
+python predict.py
+```
 The generated sequences are saved to temp.txt
 
 ```
