@@ -34,7 +34,8 @@ pip install wandb
 2) Train Diffusion-LM:
 
 
-```cd code/Diffusion-LM/improved-diffusion 
+```
+cd code/Diffusion-LM/improved-diffusion 
 mkdir diffusion_models
 sh run.sh
 ```
