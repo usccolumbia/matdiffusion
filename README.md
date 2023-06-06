@@ -18,7 +18,7 @@ University of South Carolina
 
 ### Installation
 
-1) Install Diffusion_LM
+1) Install Diffusion-LM
 
 ~~~Conda Setup:
 conda install mpi4py
@@ -50,7 +50,7 @@ mkdir generation_outputs
 Run 'decode.sh', the generation is saved in ./generation_outputs
 Run sq2formula.py to get the formula based on the sequences, the formula results are saved to formulas.csv
 
-4) Install Diffusion_LM
+4) Install Diffusion- BERT
 
 DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models
 https://arxiv.org/pdf/2211.15029.pdf 
