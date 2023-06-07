@@ -95,7 +95,7 @@ The sequences are then conver to formulas and the formula results are saved to f
 
 ## Acknowledgement 
 Our work is based on two text-generation diffusion models including 
-[Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/pdf/2205.14217.pdf) and [DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/pdf/2211.15029.pdf) 
+[Diffusion-LM Improves Controllable Text Generation](https://arxiv.org/pdf/2205.14217.pdf) and [DiffusionBERT: Improving Generative Masked Language Models with Diffusion Models](https://arxiv.org/pdf/2211.15029.pdf). Their source codes are made for text generation and can be found at [https://github.com/XiangLi1999/Diffusion-LM](https://github.com/XiangLi1999/Diffusion-LM) and [https://github.com/Hzfinfdu/Diffusion-BERT](https://github.com/Hzfinfdu/Diffusion-BERT). We have included both here with modification for convenience of users. 
 
 
 
